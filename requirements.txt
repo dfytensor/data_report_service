@@ -1,0 +1,53 @@
+# JSON DAG报告生成服务依赖包
+
+# FastAPI web框架
+fastapi
+
+# ASGI服务器
+uvicorn
+
+# HTTP客户端
+httpx
+
+# 数据验证和序列化
+pydantic
+
+# 日期时间处理
+python-dateutil
+
+# JSON数据处理 (Python标准库)
+json
+
+# 文件操作 (Python标准库)
+os
+pathlib
+
+# 日志记录 (Python标准库)
+logging
+
+# 类型注解 (Python标准库)
+typing
+
+# 枚举 (Python标准库)
+enum
+
+# 时间和日期 (Python标准库)
+datetime
+
+# 正则表达式 (Python标准库)
+re
+
+# 数学计算 (Python标准库)
+math
+
+# 随机数生成 (Python标准库)
+random
+
+# 集合和队列 (Python标准库)
+collections
+
+# 文本处理 (Python标准库)
+string
+
+# 文件路径处理 (Python标准库)
+glob

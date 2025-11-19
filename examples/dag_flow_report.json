@@ -1,0 +1,201 @@
+{
+  "config": {
+    "title": "机器学习项目DAG流程报告",
+    "description": "展示完整的机器学习项目从数据准备到模型部署的完整流程。",
+    "author": "MiniMax Agent",
+    "date": "2025-11-17",
+    "version": "1.0.0",
+    "elements": [
+      {
+        "type": "title",
+        "content": "机器学习项目流程概览",
+        "level": 2
+      },
+      {
+        "type": "text",
+        "content": "本报告展示了一个典型的机器学习项目的完整流程，从数据收集到模型部署的全过程DAG可视化。",
+        "style": "normal"
+      },
+      {
+        "type": "title",
+        "content": "项目执行流程图",
+        "level": 2
+      },
+      {
+        "type": "dag",
+        "title": "机器学习项目DAG流程",
+        "description": "完整的机器学习项目执行流程，包含数据处理、模型训练、验证和部署等关键阶段。",
+        "nodes": [
+          {
+            "id": "data_collection",
+            "name": "数据收集",
+            "description": "从多个数据源收集原始数据",
+            "status": "completed",
+            "timestamp": "2025-11-16 09:00:00",
+            "result": {"records": 50000, "sources": ["API", "CSV", "Database"]},
+            "position": {"x": 0, "y": 0}
+          },
+          {
+            "id": "data_cleaning",
+            "name": "数据清洗",
+            "description": "处理缺失值、异常值和重复数据",
+            "status": "completed",
+            "timestamp": "2025-11-16 10:30:00",
+            "result": {"removed_rows": 500, "cleaned_records": 49500},
+            "position": {"x": 200, "y": 0}
+          },
+          {
+            "id": "feature_engineering",
+            "name": "特征工程",
+            "description": "创建新特征，特征选择和转换",
+            "status": "completed",
+            "timestamp": "2025-11-16 14:00:00",
+            "result": {"features_created": 15, "features_selected": 12},
+            "position": {"x": 400, "y": 0}
+          },
+          {
+            "id": "eda",
+            "name": "探索性数据分析",
+            "description": "分析数据分布、相关性和模式",
+            "status": "completed",
+            "timestamp": "2025-11-16 16:00:00",
+            "result": {"insights": 8, "correlations": 3},
+            "position": {"x": 600, "y": 0}
+          },
+          {
+            "id": "data_splitting",
+            "name": "数据分割",
+            "description": "将数据分为训练集、验证集和测试集",
+            "status": "completed",
+            "timestamp": "2025-11-17 09:00:00",
+            "result": {"train_size": 34650, "val_size": 9900, "test_size": 4950},
+            "position": {"x": 0, "y": 200}
+          },
+          {
+            "id": "model_training",
+            "name": "模型训练",
+            "description": "训练多个机器学习模型",
+            "status": "completed",
+            "timestamp": "2025-11-17 11:30:00",
+            "result": {"models_trained": 5, "best_model": "RandomForest"},
+            "position": {"x": 200, "y": 200}
+          },
+          {
+            "id": "hyperparameter_tuning",
+            "name": "超参数调优",
+            "description": "优化模型参数以提高性能",
+            "status": "running",
+            "timestamp": "2025-11-17 14:00:00",
+            "result": {"progress": "60%", "best_score": 0.892},
+            "position": {"x": 400, "y": 200}
+          },
+          {
+            "id": "model_validation",
+            "name": "模型验证",
+            "description": "在验证集上评估模型性能",
+            "status": "pending",
+            "timestamp": null,
+            "result": null,
+            "position": {"x": 600, "y": 200}
+          },
+          {
+            "id": "model_testing",
+            "name": "模型测试",
+            "description": "在测试集上进行最终评估",
+            "status": "pending",
+            "timestamp": null,
+            "result": null,
+            "position": {"x": 800, "y": 200}
+          },
+          {
+            "id": "model_deployment",
+            "name": "模型部署",
+            "description": "将模型部署到生产环境",
+            "status": "pending",
+            "timestamp": null,
+            "result": null,
+            "position": {"x": 1000, "y": 200}
+          }
+        ],
+        "edges": [
+          {"from_node": "data_collection", "to_node": "data_cleaning", "label": "原始数据"},
+          {"from_node": "data_cleaning", "to_node": "feature_engineering", "label": "清洗后数据"},
+          {"from_node": "feature_engineering", "to_node": "eda", "label": "特征数据"},
+          {"from_node": "eda", "to_node": "data_splitting", "label": "分析结果"},
+          {"from_node": "data_splitting", "to_node": "model_training", "label": "训练数据"},
+          {"from_node": "model_training", "to_node": "hyperparameter_tuning", "label": "基础模型"},
+          {"from_node": "hyperparameter_tuning", "to_node": "model_validation", "label": "调优模型"},
+          {"from_node": "model_validation", "to_node": "model_testing", "label": "验证通过"},
+          {"from_node": "model_testing", "to_node": "model_deployment", "label": "测试通过"}
+        ],
+        "layout": "top-bottom"
+      },
+      {
+        "type": "title",
+        "content": "流程执行统计",
+        "level": 2
+      },
+      {
+        "type": "table",
+        "headers": ["节点", "状态", "执行时间", "结果摘要"],
+        "rows": [
+          ["数据收集", "✅ 完成", "1.5小时", "收集50,000条记录"],
+          ["数据清洗", "✅ 完成", "3.5小时", "清理500条记录"],
+          ["特征工程", "✅ 完成", "2小时", "创建15个特征"],
+          ["EDA分析", "✅ 完成", "2小时", "发现8个洞察"],
+          ["数据分割", "✅ 完成", "1小时", "完成训练/验证/测试分割"],
+          ["模型训练", "✅ 完成", "2.5小时", "训练5个模型"],
+          ["超参数调优", "⏳ 进行中", "预计2小时", "当前进度60%"],
+          ["模型验证", "⏳ 等待中", "-", "-"],
+          ["模型测试", "⏳ 等待中", "-", "-"],
+          ["模型部署", "⏳ 等待中", "-", "-"]
+        ]
+      },
+      {
+        "type": "title",
+        "content": "关键里程碑",
+        "level": 2
+      },
+      {
+        "type": "list",
+        "items": [
+          "🎯 数据收集阶段完成 - 成功收集到50,000条高质量数据",
+          "🧹 数据清洗完成 - 数据质量显著提升",
+          "🔧 特征工程完成 - 创造了15个有价值的特征",
+          "📊 EDA分析完成 - 识别出8个关键业务洞察",
+          "⚡ 模型训练完成 - RandomForest表现最佳",
+          "🎛️ 超参数调优进行中 - 当前最佳准确率89.2%"
+        ],
+        "ordered": false
+      },
+      {
+        "type": "title",
+        "content": "后续计划",
+        "level": 2
+      },
+      {
+        "type": "text",
+        "content": "基于当前进度，项目预计在明天下午完成所有阶段：",
+        "style": "normal"
+      },
+      {
+        "type": "list",
+        "items": [
+          "完成超参数调优（预计剩余1小时）",
+          "进行模型验证和性能评估",
+          "在测试集上进行最终测试",
+          "准备模型部署文档和监控方案",
+          "执行生产环境部署"
+        ],
+        "ordered": true
+      },
+      {
+        "type": "text",
+        "content": "项目进展顺利，各阶段执行质量良好，预计能够按时交付高质量的机器学习模型。",
+        "style": "highlight"
+      }
+    ]
+  },
+  "output_format": "markdown",
+  "filename": "ml_project_dag_report"
+}

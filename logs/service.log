@@ -1,0 +1,60 @@
+2025-11-17 17:37:25,614 - main - INFO - JSON DAGæŠ¥å‘Šç”ŸæˆæœåŠ¡å¯åŠ¨ä¸­...
+2025-11-17 17:37:25,614 - main - INFO - æœåŠ¡å¯åŠ¨å®Œæˆ
+2025-11-17 17:37:29,922 - main - INFO - JSON DAGæŠ¥å‘Šç”ŸæˆæœåŠ¡å…³é—­ä¸­...
+2025-11-17 17:37:29,933 - main - INFO - æœåŠ¡å…³é—­å®Œæˆ
+2025-11-17 21:07:23,475 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:07:23,476 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:11:46,319 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:11:46,319 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:14:13,166 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:14:13,205 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:14:14,974 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:14:14,975 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:14:25,188 - main - INFO - ÊÕµ½±¨¸æÉú³ÉÇëÇó: PythonÊı¾İ·ÖÎö±¨¸æÊ¾Àı
+2025-11-17 21:14:25,191 - handlers.file_manager - INFO - ÎÄ¼ş±£´æ³É¹¦: generated_reports\python_analysis_report_20251117_211425_f7bb6d45.md
+2025-11-17 21:14:25,191 - main - INFO - ±¨¸æÒÑ±£´æ: generated_reports\python_analysis_report_20251117_211425_f7bb6d45.md
+2025-11-17 21:14:25,192 - main - INFO - ±¨¸æÉú³É³É¹¦: python_analysis_report_20251117_211425_f7bb6d45.md
+2025-11-17 21:14:50,774 - main - INFO - ÊÕµ½±¨¸æÉú³ÉÇëÇó: PythonÊı¾İ·ÖÎö±¨¸æÊ¾Àı
+2025-11-17 21:14:50,775 - handlers.file_manager - INFO - ÎÄ¼ş±£´æ³É¹¦: generated_reports\python_analysis_report_20251117_211450_a8afc0d0.md
+2025-11-17 21:14:50,776 - main - INFO - ±¨¸æÒÑ±£´æ: generated_reports\python_analysis_report_20251117_211450_a8afc0d0.md
+2025-11-17 21:14:50,776 - main - INFO - ±¨¸æÉú³É³É¹¦: python_analysis_report_20251117_211450_a8afc0d0.md
+2025-11-17 21:24:43,918 - main - INFO - ÊÕµ½±¨¸æÉú³ÉÇëÇó: PythonÊı¾İ·ÖÎö±¨¸æÊ¾Àı
+2025-11-17 21:24:43,920 - handlers.file_manager - INFO - ÎÄ¼ş±£´æ³É¹¦: generated_reports\python_analysis_report_20251117_212443_1453690c.md
+2025-11-17 21:24:43,921 - main - INFO - ±¨¸æÒÑ±£´æ: generated_reports\python_analysis_report_20251117_212443_1453690c.md
+2025-11-17 21:24:43,922 - main - INFO - ±¨¸æÉú³É³É¹¦: python_analysis_report_20251117_212443_1453690c.md
+2025-11-17 21:25:00,489 - main - INFO - ÊÕµ½±¨¸æÉú³ÉÇëÇó: PythonÊı¾İ·ÖÎö±¨¸æÊ¾Àı
+2025-11-17 21:25:00,491 - handlers.file_manager - INFO - ÎÄ¼ş±£´æ³É¹¦: generated_reports\python_analysis_report_20251117_212500_3026530b.md
+2025-11-17 21:25:00,491 - main - INFO - ±¨¸æÒÑ±£´æ: generated_reports\python_analysis_report_20251117_212500_3026530b.md
+2025-11-17 21:25:00,492 - main - INFO - ±¨¸æÉú³É³É¹¦: python_analysis_report_20251117_212500_3026530b.md
+2025-11-17 21:31:15,970 - main - INFO - ÊÕµ½±¨¸æÉú³ÉÇëÇó: ÏúÊÛÊı¾İ¿ÉÊÓ»¯±¨¸æ
+2025-11-17 21:31:15,972 - handlers.file_manager - INFO - ÎÄ¼ş±£´æ³É¹¦: generated_reports\sales_visualization_report_20251117_213115_d0a79936.md
+2025-11-17 21:31:15,973 - main - INFO - ±¨¸æÒÑ±£´æ: generated_reports\sales_visualization_report_20251117_213115_d0a79936.md
+2025-11-17 21:31:15,973 - main - INFO - ±¨¸æÉú³É³É¹¦: sales_visualization_report_20251117_213115_d0a79936.md
+2025-11-17 21:43:43,587 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:43:43,588 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:43:46,522 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:43:46,523 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:43:49,107 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:43:49,107 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:43:50,973 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:43:50,973 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:43:55,595 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:43:55,596 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:43:58,128 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:43:58,129 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:43:58,251 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:43:58,252 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:43:59,335 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:43:59,336 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:48:16,947 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:48:16,948 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:48:22,936 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:48:22,937 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:48:55,814 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñ¹Ø±ÕÖĞ...
+2025-11-17 21:48:55,815 - main - INFO - ·şÎñ¹Ø±ÕÍê³É
+2025-11-17 21:48:57,166 - main - INFO - JSON DAG±¨¸æÉú³É·şÎñÆô¶¯ÖĞ...
+2025-11-17 21:48:57,167 - main - INFO - ·şÎñÆô¶¯Íê³É
+2025-11-17 21:48:58,107 - main - INFO - ÊÕµ½±¨¸æÉú³ÉÇëÇó: ÏúÊÛÊı¾İ¿ÉÊÓ»¯±¨¸æ
+2025-11-17 21:48:58,109 - handlers.file_manager - INFO - ÎÄ¼ş±£´æ³É¹¦: generated_reports\sales_visualization_report_20251117_214858_7d1d8ab9.md
+2025-11-17 21:48:58,110 - main - INFO - ±¨¸æÒÑ±£´æ: generated_reports\sales_visualization_report_20251117_214858_7d1d8ab9.md
+2025-11-17 21:48:58,110 - main - INFO - ±¨¸æÉú³É³É¹¦: sales_visualization_report_20251117_214858_7d1d8ab9.md

@@ -1,0 +1,81 @@
+{
+  "config": {
+    "title": "堆叠图表示例报告",
+    "description": "本报告展示了如何创建堆叠图表。",
+    "author": "MiniMax Agent",
+    "date": "2025-11-17",
+    "version": "1.0.0",
+    "elements": [
+      {
+        "type": "title",
+        "content": "堆叠折线图示例",
+        "level": 2
+      },
+      {
+        "type": "chart",
+        "chart_type": "line",
+        "title": "堆叠折线图",
+        "description": "展示如何创建堆叠折线图。",
+        "style": "default",
+        "data": {
+          "categories": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"],
+          "series": [
+            {
+              "name": "邮件营销",
+              "data": [120, 132, 101, 134, 90, 230, 210],
+              "stack": "总量"
+            },
+            {
+              "name": "联盟广告",
+              "data": [220, 182, 191, 234, 290, 330, 310],
+              "stack": "总量"
+            },
+            {
+              "name": "视频广告",
+              "data": [150, 232, 201, 154, 190, 330, 410],
+              "stack": "总量"
+            }
+          ]
+        },
+        "width": "100%",
+        "height": "400px"
+      },
+      {
+        "type": "title",
+        "content": "堆叠柱状图示例",
+        "level": 2
+      },
+      {
+        "type": "chart",
+        "chart_type": "bar",
+        "title": "堆叠柱状图",
+        "description": "展示如何创建堆叠柱状图。",
+        "style": "default",
+        "data": {
+          "categories": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"],
+          "series": [
+            {
+              "name": "邮件营销",
+              "data": [120, 132, 101, 134, 90, 230, 210],
+              "stack": "总量"
+            },
+            {
+              "name": "联盟广告",
+              "data": [220, 182, 191, 234, 290, 330, 310],
+              "stack": "总量"
+            },
+            {
+              "name": "视频广告",
+              "data": [150, 232, 201, 154, 190, 330, 410],
+              "stack": "总量"
+            }
+          ]
+        },
+        "width": "100%",
+        "height": "400px"
+      }
+    ]
+  },
+  "output_format": "markdown",
+  "filename": "stacked_chart_example"
+}

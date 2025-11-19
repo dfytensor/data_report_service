@@ -1,0 +1,85 @@
+{
+  "config": {
+    "title": "Python数据分析报告示例",
+    "description": "这是一个基础文本报告示例，展示了如何创建包含标题、文本、列表、代码和表格的报告。",
+    "author": "MiniMax Agent",
+    "date": "2025-11-17",
+    "version": "1.0.0",
+    "elements": [
+      {
+        "type": "title",
+        "content": "项目概述",
+        "level": 2
+      },
+      {
+        "type": "text",
+        "content": "本报告展示了一个标准的Python数据分析流程，包含数据预处理、模型训练和结果分析等关键步骤。",
+        "style": "normal"
+      },
+      {
+        "type": "title",
+        "content": "分析流程",
+        "level": 2
+      },
+      {
+        "type": "list",
+        "items": [
+          "数据收集与清洗",
+          "探索性数据分析(EDA)",
+          "特征工程",
+          "模型选择与训练",
+          "模型评估与优化",
+          "结果解释与可视化"
+        ],
+        "ordered": true
+      },
+      {
+        "type": "title",
+        "content": "代码示例",
+        "level": 2
+      },
+      {
+        "type": "code",
+        "content": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestClassifier\n\n# 数据加载\ndf = pd.read_csv('data.csv')\n\n# 数据预处理\ndf['target'] = df['target'].map({'A': 0, 'B': 1})\ndf = df.dropna()\n\n# 特征选择\nfeatures = ['feature1', 'feature2', 'feature3', 'feature4']\nX = df[features]\ny = df['target']\n\n# 模型训练\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\nmodel = RandomForestClassifier(n_estimators=100, random_state=42)\nmodel.fit(X_train, y_train)\n\n# 模型评估\naccuracy = model.score(X_test, y_test)\nprint(f'模型准确率: {accuracy:.3f}')",
+        "language": "python"
+      },
+      {
+        "type": "title",
+        "content": "主要发现",
+        "level": 2
+      },
+      {
+        "type": "table",
+        "headers": ["指标", "数值", "解释"],
+        "rows": [
+          ["准确率", "0.875", "模型在测试集上的表现"],
+          ["精确率", "0.832", "预测为正例的准确性"],
+          ["召回率", "0.918", "实际正例被正确识别的比例"],
+          ["F1分数", "0.873", "精确率和召回率的调和平均"]
+        ]
+      },
+      {
+        "type": "text",
+        "content": "模型在测试集上取得了良好的性能表现，F1分数达到0.873，说明模型在精确率和召回率之间取得了较好的平衡。",
+        "style": "highlight"
+      },
+      {
+        "type": "title",
+        "content": "改进建议",
+        "level": 2
+      },
+      {
+        "type": "list",
+        "items": [
+          "增加训练数据量以提高模型泛化能力",
+          "尝试集成学习方法如XGBoost或LightGBM",
+          "进行更详细的特征工程和特征选择",
+          "使用交叉验证进行更稳定的模型评估"
+        ],
+        "ordered": false
+      }
+    ]
+  },
+  "output_format": "markdown",
+  "filename": "python_analysis_report"
+}
